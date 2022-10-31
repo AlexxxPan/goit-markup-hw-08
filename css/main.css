@@ -1363,22 +1363,52 @@ img {
 .conteiner--size {
   display: block;
   align-items: baseline;
+  text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .conteiner--size {
     display: flex;
   }
 }
 .contacts__item:not(:last-child) {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 
+@media screen and (min-width: 1200px) {
+  .contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contacts {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .conteiner--size {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .subs-mail {
+    display: block;
+  }
+}
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .logo-box {
+    margin-left: 61px;
+    margin-bottom: 60px;
+  }
+}
 .contacts__address {
   margin-top: 20px;
 }
@@ -1387,6 +1417,11 @@ footer {
   margin-left: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .join {
+    margin-right: 74px;
+  }
+}
 .join__link {
   width: 44px;
   height: 44px;
@@ -1397,6 +1432,13 @@ footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 1200px) {
+  .join__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .join__list {
   display: flex;
   align-items: center;
@@ -1405,29 +1447,50 @@ footer {
   margin-top: 20px;
 }
 
-.subs-mail {
-  display: block;
-  margin-left: auto;
+@media screen and (max-width: 1199px) {
+  .join__list {
+    margin-bottom: 60px;
+  }
 }
-
+@media screen and (min-width: 1200px) {
+  .subs-mail {
+    display: block;
+    margin-left: auto;
+  }
+}
 .subs-mail__tittle {
   margin-bottom: 20px;
 }
 
-.subs-mail__form {
-  display: flex;
-  align-items: center;
+@media screen and (max-width: 1199px) {
+  .subs-mail__form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
+@media screen and (min-width: 1200px) {
+  .subs-mail__form {
+    display: flex;
+    align-items: baseline;
+  }
+}
 .subs-mail__field input {
   margin-right: 12px;
-  width: 358px;
+  width: 450px;
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1199px) {
+  .subs-mail__field input {
+    width: 358px;
+  }
+}
 .subs-mail__btn {
   position: relative;
   border: none;
