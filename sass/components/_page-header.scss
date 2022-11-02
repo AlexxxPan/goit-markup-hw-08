@@ -47,13 +47,19 @@
   display: flex;
   margin-left: auto;
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+   
+  }
 }
+
 .contact-list .contact-list__item + .contact-list__item {
   margin-left: 50px;
 }
+
 .contact-list__mail,
 .contact-list__tel {
   display: flex;
