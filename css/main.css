@@ -1426,11 +1426,15 @@ img {
 @media screen and (min-width: 768px) {
   .clients--size {
     width: 768px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .clients--size {
     width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1483,7 +1487,6 @@ img {
 
 .clients__link {
   border-radius: 4px;
-  width: 170px;
   height: 92px;
   display: flex;
   align-items: center;
