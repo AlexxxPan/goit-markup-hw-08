@@ -9,9 +9,9 @@
     display: flex;
   }
 }
-  .contacts__item:not(:last-child) {
-    margin-bottom: 8px;
-  }
+.contacts__item:not(:last-child) {
+  margin-bottom: 8px;
+}
 
 @media screen and (min-width: 1200px) {
   .contacts__item:not(:last-child) {
@@ -41,24 +41,37 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-contacts {
+    display: flex;
+    padding-left: 61px;
+    padding-right: 61px;
+    margin-bottom: 60px;
+    width: 100%;
 
-@media screen and (min-width: 768px) {
-.logo-box {
-  margin-left: 61px;
-  margin-bottom: 60px;
+  }
 }
+@media screen and (min-width: 1200px) {
+  .footer-contacts {
+    display: flex;
+    width: 100%;
+    justify-items: baseline;
+    }
 }
+
 .contacts__address {
   margin-top: 20px;
 }
-.join {
-  margin-left: auto;
-}
-
 @media screen and (min-width: 768px) {
-.join {
-margin-right: 74px;
+  .join {
+  margin-left: auto;
+ }
 }
+@media screen and (min-width: 1200px) {
+  .join {
+  margin-left: auto;
+  margin-right: auto;
+ }
 }
 .join__link {
   width: 44px;
@@ -115,13 +128,17 @@ margin-right: 74px;
 }
 
 .subs-mail__field input {
-  margin-right: 12px;
   width: 450px;
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 4px;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .subs-mail__field input {
+  margin-right: 12px;
+  }
 }
 @media screen and (min-width: 1199px) {
   .subs-mail__field input {
