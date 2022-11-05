@@ -611,6 +611,12 @@ ul {
   text-decoration: none;
 }
 
+@media screen and (min-width: 480px) {
+  .mob-container {
+    width: 480px;
+  }
+}
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -623,7 +629,7 @@ ul {
   padding-bottom: 48px;
   padding-left: 40px;
 }
-.mob-menu > .conteiner {
+.mob-menu > .mob-container {
   overflow: auto;
 }
 @media screen and (min-width: 768px) {
@@ -1411,6 +1417,21 @@ img {
 .clients--size {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 480px) {
+  .clients--size {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients--size {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients--size {
+    width: 1200px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
