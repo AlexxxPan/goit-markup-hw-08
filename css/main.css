@@ -611,6 +611,12 @@ ul {
   text-decoration: none;
 }
 
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 @media screen and (min-width: 480px) {
   .mob-container {
     width: 480px;
@@ -721,6 +727,7 @@ ul {
 
 .menu-open-btn {
   margin-left: auto;
+  margin-right: 0%;
   background-color: transparent;
   cursor: pointer;
   border: none;
