@@ -34,18 +34,6 @@ body {
 .logo__header {
   color: var(--main-font-color);
 }
-// .icon-menu {
-//   .menu-toggle:hover &,
-//   .menu-toggle:focus & {
-//     fill: var(--accent-color);
-//   }
-// }
-// .icon-cross {
-//   .menu-toggle:hover &,
-//   .menu-toggle:focus & {
-//     fill: var(--accent-color);
-//   }
-// }
 
 .header-list__link {
   font-weight: 500;
@@ -243,13 +231,26 @@ textarea {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
 }
+// .agreement {
+//   font-weight: 400;
+//   font-size: 14px;
+//   line-height: 24px;
+//   letter-spacing: 0.03em;
+//   color: #757575;
+// }
 .agreement {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
+
 .agreement__policy {
   color: var(--accent-color);
 }
