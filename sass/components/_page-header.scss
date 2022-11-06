@@ -26,12 +26,12 @@
 @media screen and (min-width: 1200px) {
   .header-list .header-list__item {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
+      }
 }
 .header-list__link {
   position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -46,7 +46,7 @@
     height: 4px;
     border-radius: 2px;
 
-    transform: translateY(32px);
+    // transform: translateY(32px);
   }
 }
 .contact-list {
@@ -81,8 +81,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-list__mail {
+    padding-top: 20px;
+  }
+  .contact-list__tel {
+    padding-bottom: 20px;
   }
 }
 @media screen and (min-width: 768px) {
