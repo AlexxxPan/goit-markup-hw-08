@@ -119,7 +119,8 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-  }
+    
+    }
 }
 @media screen and (min-width: 1200px) {
   .subs-mail__form {
@@ -135,6 +136,7 @@ footer {
   padding-bottom: 15px;
   border-radius: 4px;
   margin-bottom: 20px;
+  
 }
 @media screen and (min-width: 1200px) {
   .subs-mail__field input {
@@ -145,6 +147,11 @@ footer {
 @media screen and (min-width: 768px) {
   .subs-mail__field input {
     width: 450px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .subs-mail__field input {
+    max-width: 450px;
   }
 }
 .subs-mail__btn {

@@ -50,9 +50,14 @@
 }
 
 
-.mob-menu-block{
+.mob-menu-block {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  }
+  .link-block {
+    margin-bottom: auto;
   }
   
 .menu__item:not(:last-child) {
