@@ -54,7 +54,6 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  // gap: 30px;
   margin: -15px;
 }
 .portfolio-list__projects {
@@ -62,6 +61,7 @@
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  flex-grow: 1;
 }
 .portfolio-list__item {
   
@@ -110,7 +110,14 @@
 .portfolio-list__thumb {
   position: relative;
   overflow: hidden;
+  }
+.portfolio-list__link {
+  display: flex;
+flex-direction: column;
+  height: 100%;
+
 }
+
 .portfolio-list__meta {
   position: absolute;
   display: flex;
