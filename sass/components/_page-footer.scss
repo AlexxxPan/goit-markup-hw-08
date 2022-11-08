@@ -1,173 +1,173 @@
 .conteiner--size {
-  display: block;
-  align-items: baseline;
-  text-align: center;
-  width: 100%;
-}
-@media screen and (min-width: 1200px) {
-  .conteiner--size {
-    display: flex;
-    text-align: start;
-  }
-}
-.contacts__item:not(:last-child) {
-  margin-bottom: 8px;
-}
-
-@media screen and (min-width: 1200px) {
-  .contacts__item:not(:last-child) {
-    margin-bottom: 9px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .logo-box {
-    margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .conteiner--size {
-    display: inline-flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .subs-mail {
     display: block;
-  }
-}
-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-contacts {
-    display: flex;
-    padding-left: 74px;
-    padding-right: 74px;
-    margin-bottom: 60px;
+    align-items: baseline;
+    text-align: center;
     width: 100%;
-
   }
-}
-@media screen and (min-width: 1200px) {
-  .footer-contacts {
-    display: flex;
-    width: 100%;
-    justify-items: baseline;
+  @media screen and (min-width: 1200px) {
+    .conteiner--size {
+      display: flex;
+      text-align: start;
     }
-}
-
-.contacts__address {
-  margin-top: 20px;
-}
-@media screen and (min-width: 768px) {
-  .join {
-  margin-left: auto;
- }
-}
-@media screen and (min-width: 1200px) {
-  .join {
-  margin-left: auto;
-  margin-right: auto;
- }
-}
-.join__link {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-@media screen and (min-width: 1200px) {
+  }
+  .contacts__item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .contacts__item:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .logo-box {
+      margin-bottom: 60px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .conteiner--size {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .subs-mail {
+      display: block;
+    }
+  }
+  footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer-contacts {
+      display: flex;
+      padding-left: 74px;
+      padding-right: 74px;
+      margin-bottom: 60px;
+      width: 100%;
+  
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .footer-contacts {
+      display: flex;
+      width: 100%;
+      justify-items: baseline;
+      }
+  }
+  
+  .contacts__address {
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .join {
+    margin-left: auto;
+   }
+  }
+  @media screen and (min-width: 1200px) {
+    .join {
+    margin-left: auto;
+    margin-right: auto;
+   }
+  }
   .join__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-}
-.join__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-@media screen and (max-width: 1199px) {
-  .join__list {
-    margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .subs-mail {
-    display: block;
-    margin-left: auto;
-  }
-}
-.subs-mail__tittle {
-  margin-bottom: 20px;
-}
-@media screen and (max-width: 1199px) {
-  .subs-mail__form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    
-    }
-}
-@media screen and (min-width: 1200px) {
-  .subs-mail__form {
-    display: flex;
-    align-items: baseline;
-  }
-}
-
-.subs-mail__field input {
-  width: 100%;
-  padding-left: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-radius: 4px;
-  margin-bottom: 20px;
   
-}
-@media screen and (min-width: 1200px) {
-  .subs-mail__field input {
-  margin-right: 12px;
-  width: 358px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-}
-@media screen and (min-width: 768px) {
-  .subs-mail__field input {
-    width: 450px;
+  @media screen and (min-width: 1200px) {
+    .join__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
-}
-@media screen and (min-width: 480px) {
-  .subs-mail__field input {
-    max-width: 450px;
+  .join__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
   }
-}
-.subs-mail__btn {
-  position: relative;
-  border: none;
-  padding: 10px 62px 10px 28px;
-  border-radius: 4px;
-  min-width: 200px;
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.subs-mail__icon {
-  position: absolute;
-  top: 13px;
-  right: 28px;
-}
+  
+  @media screen and (max-width: 1199px) {
+    .join__list {
+      margin-bottom: 60px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .subs-mail {
+      display: block;
+      margin-left: auto;
+    }
+  }
+  .subs-mail__tittle {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 1199px) {
+    .subs-mail__form {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      
+      }
+  }
+  @media screen and (min-width: 1200px) {
+    .subs-mail__form {
+      display: flex;
+      align-items: baseline;
+    }
+  }
+  
+  .subs-mail__field input {
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    
+  }
+  @media screen and (min-width: 1200px) {
+    .subs-mail__field input {
+    margin-right: 12px;
+    width: 358px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .subs-mail__field input {
+      width: 450px;
+    }
+  }
+  @media screen and (min-width: 480px) {
+    .subs-mail__field input {
+      max-width: 450px;
+    }
+  }
+  .subs-mail__btn {
+    position: relative;
+    border: none;
+    padding: 10px 62px 10px 28px;
+    border-radius: 4px;
+    min-width: 200px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .subs-mail__icon {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+  }
